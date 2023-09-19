@@ -51,12 +51,12 @@ def send_table_to_database(table,table_name="radiometer_pwv",tags=[]):
 # files
 files = {}
 files["TA-1"] = "https://zenodo.org/record/3880373/files/TA-1.dat"
-#files["TA-2"] = "https://zenodo.org/record/3880373/files/TA-2.dat"
-#files["TA-3"] = "https://zenodo.org/record/3880373/files/TA-3.dat"
-#files["TB-1"] = "https://zenodo.org/record/3880373/files/TB-1.dat"
-#files["TB-2"] = "https://zenodo.org/record/3880373/files/TB-2.dat"
-#files["TB-3"] = "https://zenodo.org/record/3880373/files/TB-2.dat"
-#files["WVR_UdeC"] = "https://zenodo.org/record/3880373/files/WVR_UdeC.dat"
+files["TA-2"] = "https://zenodo.org/record/3880373/files/TA-2.dat"
+files["TA-3"] = "https://zenodo.org/record/3880373/files/TA-3.dat"
+files["TB-1"] = "https://zenodo.org/record/3880373/files/TB-1.dat"
+files["TB-2"] = "https://zenodo.org/record/3880373/files/TB-2.dat"
+files["TB-3"] = "https://zenodo.org/record/3880373/files/TB-2.dat"
+files["WVR_UdeC"] = "https://zenodo.org/record/3880373/files/WVR_UdeC.dat"
 
 # download files
 for key,filename in files.items():
